@@ -1,6 +1,8 @@
 language: java
 os: linux
 dist: xenial
-script: "mvn clean package"
+script: ./mvn clean install
 branches:
- only: Features/miseEnplaceDesTests
+ only: master
+notifications:
+ boujnane11@hotmail.com
