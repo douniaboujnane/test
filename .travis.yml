@@ -1,4 +1,6 @@
-language: python
-rvm:
- - 2.2
- - jruby
+language: java
+os: linux
+dist: xenial
+script: "mvn clean package"
+branches:
+ only: Features/miseEnplaceDesTests
